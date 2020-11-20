@@ -1,0 +1,822 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#"
+     xml:base="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:entertainment-program-term-project-2020="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-program-term-project-2020#"
+     xmlns:entertainment-programs-from-streaming-services-in-thailand="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand">
+        <rdfs:comment xml:lang="en">Group Members:
+Siwat 6110546640
+Patteera 6110545597
+Apipark 6110546429
+Tanapol 6110545511</rdfs:comment>
+        <rdfs:comment xml:lang="en">Scope: Entertainment Program from Streaming Services (Netflix, Amazon Prime Video, HBO GO) in Thailand and the shows related Information</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasActor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasActor">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <rdfs:label xml:lang="th">มีนักแสดง</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasAudioLanguageAvailibility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasAudioLanguageAvailibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasLanguageAvalibility"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+        <rdfs:label xml:lang="th">มีเสียงสนทนาภาษา</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasAward -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasAward">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Award"/>
+        <rdfs:label xml:lang="th">มีรางวัลที่ได้รับ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasAwardType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasAwardType">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Award"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+        <rdfs:label xml:lang="th">มีประดภทรางวัล</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasDirector -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasDirector">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <rdfs:label xml:lang="th">มีผู้กำกับ</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasGenre -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasGenre">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:label xml:lang="th">มีประเภทงานแสดง</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasLanguageAvalibility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasLanguageAvalibility">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+        <rdfs:label xml:lang="th">มีภาษาที่ใช้ได้</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRating -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRating">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <rdfs:label xml:lang="th">มีความนิยม</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRatingSource -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRatingSource">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#RatingSource"/>
+        <rdfs:label xml:lang="th">มีแหล่งคะแนนความนิยม</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasSubtitleLanguageAvailibility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasSubtitleLanguageAvailibility">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasLanguageAvalibility"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+        <rdfs:label xml:lang="th">มีคำบรรยายภาษา</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#hasShow -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#hasShow">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:label xml:lang="th">มีสื่องานแสดง</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasDescription">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="th">มีคำอธิบาย</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasGender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasGender">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="th">มีเพศ</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasIncome -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasIncome">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="th">มีรายได้</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasName">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="th">มีชื่อ</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRatingValue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRatingValue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:label xml:lang="th">มีคะแนนความนิยม</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasReleaseYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasReleaseYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:label xml:lang="th">ออกฉายในปี</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#GoogleRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#GoogleRating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <rdfs:label xml:lang="th">ความนิยมจากกูเกิ้ล</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDBRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDBRating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <rdfs:label xml:lang="th">ความนิยมจากไอเอ็มดีบี</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoesRating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoesRating">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <rdfs:label xml:lang="th">ความนิยมจากรอตเทนโทเมโทส์</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Award -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Award">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Award class represents an association that issues the award</rdfs:comment>
+        <rdfs:label xml:lang="th">รางวัล</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Award Type class represents a type of award such as best director, best actor, etc</rdfs:comment>
+        <rdfs:label xml:lang="th">ประเภทรางวัล</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestActorAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestActorAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestActressAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestActressAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestAdaptedScreenplayAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestAdaptedScreenplayAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestAnimatedFeatureFilmAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestAnimatedFeatureFilmAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestCinematographyAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestCinematographyAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestCostumeDesignAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestCostumeDesignAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestDirectorAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestDirectorAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestFilmEditingAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestFilmEditingAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestForeignLanguageFilmAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestForeignLanguageFilmAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestMakeupAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestMakeupAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestOriginalScreenplayAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestOriginalScreenplayAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestPictureAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestPictureAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestProductionDesignAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestProductionDesignAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestSongAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestSongAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestSpecialEffectsAwardType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#BestSpecialEffectsAwardType">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AwardType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genre class represent a type of show</rdfs:comment>
+        <rdfs:label xml:lang="th">ประเภทงานแสดง</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Language class represent a human language</rdfs:comment>
+        <rdfs:label xml:lang="th">ภาษา</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Serie"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Movie class represents a show that run about two or three hours</rdfs:comment>
+        <rdfs:label xml:lang="th">ภาพยนต์</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person class represents an individual human being</rdfs:comment>
+        <rdfs:label xml:lang="th">คน</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating">
+        <rdfs:comment>Rating represent rating and its related information</rdfs:comment>
+        <rdfs:label xml:lang="th">ความนิยม</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#RatingSource -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#RatingSource">
+        <rdfs:comment>Rating Source is where the rating come from</rdfs:comment>
+        <rdfs:label xml:lang="th">แหล่งที่มาของคะแนนความนิยม</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Serie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Serie">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serie class represents a show that is long, have many chapters of continuing story.</rdfs:comment>
+        <rdfs:label xml:lang="th">หนังชุด</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Show class represents all the films including movies and series</rdfs:comment>
+        <rdfs:label xml:lang="th">งานแสดง</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Streaming Service Provider class represents a company that provide films streaming service through the Internet</rdfs:comment>
+        <rdfs:label xml:lang="th">ผู้ให้บริการสตรีมมิ่ง</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Action</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adventure</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Anime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Anime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anime</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CamillaBelle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CamillaBelle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camilla Belle</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChildrenAndFamily -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChildrenAndFamily">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChildrenAndFamily</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CliffCurtis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CliffCurtis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cliff Curtis</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Comedy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Comedy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comedy</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Documentary -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Documentary">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Documentary</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Drama -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Drama">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drama</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Erotics -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Erotics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erotics</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fantasy</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#RatingSource"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Historical -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Historical">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Historical</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horror</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#RatingSource"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMDB</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Korean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Korean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RolandEmmerich -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RolandEmmerich">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Roland Emmerich</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Romance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Romance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Romance</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#RatingSource"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RottenTomatoes</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SciFi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SciFi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SciFi</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Spainish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Spainish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#StevenStrait -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#StevenStrait">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steven Strait</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BC">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CamillaBelle"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CliffCurtis"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#StevenStrait"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RolandEmmerich"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingGoogle"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingIMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingRottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">D&apos;Leh belongs to the tribe of hunters and gatherers who reside in the mountain range in the Urals. When his tribe is attacked, the love of his life is taken as prisoner and the men as slaves</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269800000</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10,000BC</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingGoogle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingGoogle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.5</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingIMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingIMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.1</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingRottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BCRatingRottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">9.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AmazonPrimeVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AmazonPrimeVideo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#DisneyPlus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#DisneyPlus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#HBOGo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#HBOGo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Netflix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Netflix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BC"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
