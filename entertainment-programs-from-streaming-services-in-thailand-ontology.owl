@@ -113,6 +113,19 @@ Tanapol 6110545511</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasPreviousEpisode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasPreviousEpisode">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+        <rdfs:label xml:lang="th">มีภาคก่อนหน้า</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRating -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasRating">
@@ -200,6 +213,7 @@ Tanapol 6110545511</rdfs:comment>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Total Income of the show ( USD Currency )</rdfs:comment>
         <rdfs:label xml:lang="th">มีรายได้</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -526,11 +540,40 @@ Tanapol 6110545511</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#AidanGillen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#AidanGillen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AidanGillen</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Anime -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Anime">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Anime</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#AshleyScott -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#AshleyScott">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ashley Scott</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#BasedOnRealLife -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#BasedOnRealLife">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Based on Real Life</entertainment-programs-from-streaming-services-in-thailand:hasName>
     </owl:NamedIndividual>
     
 
@@ -545,11 +588,31 @@ Tanapol 6110545511</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CharlesDance -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CharlesDance">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charles Dance</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CharlesSDutton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CharlesSDutton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Charles S Dutton</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChildrenAndFamily -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChildrenAndFamily">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
-        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChildrenAndFamily</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Children and Family</entertainment-programs-from-streaming-services-in-thailand:hasName>
     </owl:NamedIndividual>
     
 
@@ -558,6 +621,26 @@ Tanapol 6110545511</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChloeGraceMoretz -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChloeGraceMoretz">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chloe Grace Moretz</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChrisHemsworth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChrisHemsworth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chris Hemsworth</entertainment-programs-from-streaming-services-in-thailand:hasName>
     </owl:NamedIndividual>
     
 
@@ -577,6 +660,16 @@ Tanapol 6110545511</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Comedy">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comedy</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#DavidFincher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#DavidFincher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David Fincher</entertainment-programs-from-streaming-services-in-thailand:hasName>
     </owl:NamedIndividual>
     
 
@@ -660,10 +753,158 @@ Tanapol 6110545511</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JBlakeson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JBlakeson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J Blakeson</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JamesCameron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JamesCameron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Cameron</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Japanese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Japanese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JeanPierreJeunet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JeanPierreJeunet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jean-Pierre Jeunet</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JeremyRenner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JeremyRenner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jeremy Renner</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JohnCena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JohnCena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Cena</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JuanCarlosFresnadillo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JuanCarlosFresnadillo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juan Carlos Fresnadillo</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Korean -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Korean">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelBiehn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelBiehn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Biehn</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelPena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelPena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Pena</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelShannon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelShannon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Shannon</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#NickRobinson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#NickRobinson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nick Robinson</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#NicolaiFuglsig -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#NicolaiFuglsig">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NicolaiFuglsig</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#PaulReiser -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#PaulReiser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paul Reiser</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RennyHarlin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RennyHarlin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Renny Harlin</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RobertCarlyle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RobertCarlyle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Robert Carlyle</entertainment-programs-from-streaming-services-in-thailand:hasName>
     </owl:NamedIndividual>
     
 
@@ -687,6 +928,36 @@ Tanapol 6110545511</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RonLivingston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RonLivingston">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ron Livingston</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RonPerlman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RonPerlman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ron Perlman</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RoseByrne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RoseByrne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rose Byrne</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes">
@@ -701,6 +972,16 @@ Tanapol 6110545511</rdfs:comment>
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SciFi">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Genre"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SciFi</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SigourneyWeaver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SigourneyWeaver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sigourney Weaver</entertainment-programs-from-streaming-services-in-thailand:hasName>
     </owl:NamedIndividual>
     
 
@@ -727,6 +1008,231 @@ Tanapol 6110545511</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#WinonaRyder -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#WinonaRyder">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Person"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Female</entertainment-programs-from-streaming-services-in-thailand:hasGender>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Winona Ryder</entertainment-programs-from-streaming-services-in-thailand:hasName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CharlesDance"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#CharlesSDutton"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SigourneyWeaver"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#DavidFincher"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Horror"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasPreviousEpisode rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliens"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ellen Ripley&apos;s escape pod crash-lands on Fiorina 161, a penal colony planet terrorised by an alien. She rallies the inmates into killing it but realises that she is carrying an alien embryo herself</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.75E8</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alien 3</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1992</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3Google -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3Google">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.8</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3IMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3IMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.5</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3RottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3RottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">43.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RonPerlman"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SigourneyWeaver"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#WinonaRyder"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JeanPierreJeunet"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Horror"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasPreviousEpisode rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionGoogle"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionIMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionRottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ripley 8, a human-alien hybrid clone, is aboard a vessel, Auriga, along with space pirates. However, when aliens invade Auriga, Ripley does her best to prevent them from reaching and destroying Earth</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.614E8</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alien Resurrection</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1997</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionGoogle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionGoogle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.6</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionIMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionIMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.2</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionRottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrectionRottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">54.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliens -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliens">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelBiehn"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#PaulReiser"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SigourneyWeaver"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JamesCameron"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Horror"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliensIMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliensRottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ellen Ripley is sent back to the planet LV-426 to establish contact with a terraforming colony. Once there, she encounters the Alien Queen and her offspring and has to fight them to survive</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Aliens</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.8E8</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1986</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliensIMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliensIMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.3</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliensRottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliensRottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">97.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWave -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWave">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChloeGraceMoretz"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#NickRobinson"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RonLivingston"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Japanese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JBlakeson"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveGoogle"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveIMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveRottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">With the human race at the risk of getting wiped out owing to an alien invasion, Cassie, one of the few survivors, decides to risk everything to find her younger brother, Sam</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.099E8</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The 5th Wave</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveGoogle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveGoogle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveIMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveIMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.2</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveRottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWaveRottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
     </owl:NamedIndividual>
     
 
@@ -784,6 +1290,161 @@ Tanapol 6110545511</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12Rounds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12Rounds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#AidanGillen"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#AshleyScott"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JohnCena"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RennyHarlin"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12RoundsIMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12RoundsRottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detective Danny Fisher discovers that his girlfriend has been kidnapped by an arms dealer from his past. In order to save her, he must complete 12 dangerous challenges set up as revenge by her captor</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1728000</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rounds</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12RoundsIMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12RoundsIMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">5.6</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12RoundsRottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12RoundsRottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">30.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12Strong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12Strong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ChrisHemsworth"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelPena"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MichaelShannon"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#NicolaiFuglsig"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#BasedOnRealLife"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongGoogle"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongIMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongRottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.11E7</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Strong</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In the wake of the September 11 attacks, Captain Mitch Nelson leads a US Special Forces team into Afghanistan for an extremely dangerous mission. Once there, the soldiers develop an uneasy partnership with the Northern Alliance to take down the Taliban and its al-Qaida allies. Outgunned and outnumbered, Nelson and his forces face overwhelming odds in a fight against a ruthless enemy that takes no prisoners</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongGoogle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongGoogle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongIMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongIMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.6</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongRottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12StrongRottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">50.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLater -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLater">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JeremyRenner"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RobertCarlyle"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RoseByrne"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#JuanCarlosFresnadillo"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Horror"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterGoogle"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterIMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterRottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleLanguageAvailibility rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Six months after the Rage virus turned half of Britain into zombies, the US Army helps secure London for the survivors after a carrier of the virus enters the city and the horror begins once again</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.42E7</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">28 Weeks Later</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterGoogle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterGoogle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.7</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterIMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterIMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterRottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLaterRottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">71.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AmazonPrimeVideo -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#AmazonPrimeVideo">
@@ -812,7 +1473,14 @@ Tanapol 6110545511</rdfs:comment>
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Netflix">
         <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#StreamingServiceProvider"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alien3"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#alienResurrection"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#aliens"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#the5thWave"/>
         <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#10000BC"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12Rounds"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#12Strong"/>
+        <hasShow rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#28WeeksLater"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
