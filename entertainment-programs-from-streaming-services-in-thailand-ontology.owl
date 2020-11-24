@@ -519,6 +519,23 @@ Tanapol 6110545511</rdfs:comment>
     
 
 
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MovieWithNoSequels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MovieWithNoSequels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MovieWithSequels"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MovieWithSequels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MovieWithSequels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoesRating -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoesRating">
@@ -551,6 +568,22 @@ Tanapol 6110545511</rdfs:comment>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
         <rdfs:label xml:lang="th">ความนิยมจากรอตเทนโทเมโทส์</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SerieWithNoSequels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SerieWithNoSequels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Serie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SerieWithSequels -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SerieWithSequels">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Serie"/>
     </owl:Class>
     
 
@@ -1778,10 +1811,16 @@ Tanapol 6110545511</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="urn:swrl:var#x">
+    <rdf:Description rdf:about="urn:swrl:var#FirstMovie">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="urn:swrl:var#y">
+    <rdf:Description rdf:about="urn:swrl:var#SecondMovie">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#FirstShow">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#SecondShow">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -1792,8 +1831,8 @@ Tanapol 6110545511</rdfs:comment>
                 <rdf:first>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#FirstMovie"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -1802,8 +1841,8 @@ Tanapol 6110545511</rdfs:comment>
                         <rdf:first>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Movie"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#SecondMovie"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1813,8 +1852,74 @@ Tanapol 6110545511</rdfs:comment>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasFollowingEpisode"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#FirstMovie"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#SecondMovie"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MovieWithSequels"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#FirstMovie"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#MovieWithSequels"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#SecondMovie"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#FirstShow"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#SecondShow"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasFollowingEpisode"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#FirstShow"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#SecondShow"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1831,8 +1936,8 @@ Tanapol 6110545511</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasPreviousEpisode"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#SecondShow"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#FirstShow"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1848,7 +1953,7 @@ Tanapol 6110545511</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#FirstShow"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -1858,7 +1963,7 @@ Tanapol 6110545511</rdfs:comment>
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                 <swrl:classPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Show"/>
-                                <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#SecondShow"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1868,8 +1973,8 @@ Tanapol 6110545511</rdfs:comment>
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasPreviousEpisode"/>
-                                        <swrl:argument1 rdf:resource="urn:swrl:var#x"/>
-                                        <swrl:argument2 rdf:resource="urn:swrl:var#y"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#FirstShow"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#SecondShow"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1886,8 +1991,8 @@ Tanapol 6110545511</rdfs:comment>
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#hasFollowingEpisode"/>
-                        <swrl:argument1 rdf:resource="urn:swrl:var#y"/>
-                        <swrl:argument2 rdf:resource="urn:swrl:var#x"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#SecondShow"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#FirstShow"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
