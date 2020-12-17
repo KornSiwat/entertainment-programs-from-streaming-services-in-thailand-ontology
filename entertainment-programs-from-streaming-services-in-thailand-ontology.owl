@@ -2023,12 +2023,107 @@ Tanapol 6110545511</rdfs:comment>
         <entertainment-programs-from-streaming-services-in-thailand:hasAudioAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Japanese"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasAudioAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SteveBlackman"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasFollowingEpisode rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Action"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Adventure"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SciFi"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1RottenTomatoes"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
         <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">On the same day in October 1989, forty-three infants are inexplicably born to random, unconnected women who showed no signs of pregnancy the day before. Seven are adopted by Sir Reginald Hargreeves, a billionaire industrialist, who creates The Umbrella Academy and prepares his &quot;children&quot; to save the world.</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Umbrella Academy Season 1</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1Google -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1Google">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1IMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1IMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1RottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1RottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Serie"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#AidanGallagher"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#ElliotPage"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasActor rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TomHopper"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Japanese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasAudioAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDirector rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SteveBlackman"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasGenre rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#SciFi"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasPreviousEpisode rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason1"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRating rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Chinese"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#English"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasSubtitleAvailableLanguage rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Thai"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five warned his family (so, so many times) that using his powers to escape from Vanya&apos;s 2019 apocalypse was risky. Well, he was right -- the time jump scatters the siblings in time in and around Dallas, Texas. Over a three year period. Starting in 1960.</entertainment-programs-from-streaming-services-in-thailand:hasDescription>
+        <entertainment-programs-from-streaming-services-in-thailand:hasIncome rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</entertainment-programs-from-streaming-services-in-thailand:hasIncome>
+        <entertainment-programs-from-streaming-services-in-thailand:hasName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Umbrella Academy Season2</entertainment-programs-from-streaming-services-in-thailand:hasName>
+        <entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</entertainment-programs-from-streaming-services-in-thailand:hasReleaseYear>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2Google -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2Google">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#Google"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.8</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2IMDb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2IMDb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#IMDb"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">8.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2RottenTomatoes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#TheUmbrellaAcademySeason2RottenTomatoes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/term-project-2020#Rating"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingSource rdf:resource="http://www.semanticweb.org/siwatponpued/ontologies/2020/9/entertainment-programs-from-streaming-services-in-thailand#RottenTomatoes"/>
+        <entertainment-programs-from-streaming-services-in-thailand:hasRatingValue rdf:datatype="http://www.w3.org/2001/XMLSchema#float">82.0</entertainment-programs-from-streaming-services-in-thailand:hasRatingValue>
     </owl:NamedIndividual>
     
 
