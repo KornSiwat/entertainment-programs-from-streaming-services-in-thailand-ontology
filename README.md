@@ -1,6 +1,6 @@
 # Entertainment programs from streaming services in thailand ontology
 
-    Software and Knowledge Engineering 2 Project
+    Knowledge Engineering and management 2 Project
 
 ## Members
 
